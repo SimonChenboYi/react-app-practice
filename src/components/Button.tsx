@@ -2,7 +2,7 @@ import React from "react";
 
 interface ButtonProps {
   children: string;
-  color?: string;
+  color?: "primary" | "secondary" | "danger";
   onClick: () => void;
 }
 

@@ -3,7 +3,9 @@ import Button from "./components/Button";
 function App() {
   return (
     <div>
-      <Button onClick={() => console.log("Clicked")}>My Button</Button>
+      <Button color="danger" onClick={() => console.log("Clicked")}>
+        My Button
+      </Button>
     </div>
   );
 }
