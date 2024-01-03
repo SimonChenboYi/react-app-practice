@@ -1,7 +1,7 @@
 interface AlertProps {
-  text: string;
+  children: string;
 }
 
-export const Alert = ({ text }: AlertProps) => {
-  return <div className="alert alert-primary">{text}</div>;
+export const Alert = ({ children }: AlertProps) => {
+  return <div className="alert alert-primary">{children}</div>;
 };
